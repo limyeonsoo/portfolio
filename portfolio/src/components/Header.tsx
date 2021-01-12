@@ -11,7 +11,7 @@ function Header() {
     const FadeIn = useFadeIn(5, 0);
     return (
         <div className="App">
-            <header {...FadeIn} className="App_header">
+            <header className="App_header">
                 <div className="App_header_mainbox">
                     <div className="mainbox_left">
                         {/* <img src="../../public/mine.jpg" alt="Me" height="447" /> */}
