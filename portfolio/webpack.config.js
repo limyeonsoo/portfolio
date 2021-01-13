@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
     mode: "production",
 
@@ -5,8 +6,11 @@ module.exports = {
     devtool: "source-map",
 
     resolve: {
+        alias:{
+            //'@':path.resolve(__dirname, "src"),
+        },
         // 확인 가능한 확장자로 '.ts' 와 '.tsx' 를 추가합니다.
-        extensions: [".ts", ".tsx"]
+        extensions: [".js", ".jsx", ".ts", ".tsx"]
     },
 
     module: {

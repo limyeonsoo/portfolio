@@ -1,15 +1,15 @@
-import * as React from 'react';
+import React from 'react';
 import './App.css';
-//import Header from './components/Header';
+import Header from '@components/Header';
 //import Ability from './components/Ability';
 //import Project from './components/Project';
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
     Hello
-    {/* <Header/>
-    <Ability/>
+     <Header/>
+    {/*<Ability/>
     <Project/> */}
     </>
   );
